@@ -1,9 +1,9 @@
-import './App.css';
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <div classname="Information">
+      <div className="information">
         <label>Name:</label>
         <input type="text" />
         <label>Age:</label>
@@ -12,11 +12,10 @@ function App() {
         <input type="text" />
         <label>Position:</label>
         <input type="text" />
-        <label>Wage (year):</label>
+        <label>Wage(year):</label>
         <input type="number" />
       </div>
     </div>
   );
 }
-
 export default App;
