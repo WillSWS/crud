@@ -8,4 +8,24 @@
 .information {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.information input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 12px;
+  margin: 10px;
+}
+
+
+.information button {
+  width: 200px;
+  height: 40px;
+  margin-top: 12px;
+
 }
